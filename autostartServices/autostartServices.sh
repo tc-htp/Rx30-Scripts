@@ -8,7 +8,7 @@
 
 [ -d $HOME/htp/logs ] || mkdir $HOME/htp/logs
 LOGFILE="$HOME/htp/logs/`date +%F`-`date +%H%M`_autostartServices.sh.log"
-PROCLIST="$HOME/htp/autostartServicesServiceList"
+PROCLIST="$HOME/htp/autostartServicesServiceList.conf"
 
 
 YOURTERM=$TERM
