@@ -9,7 +9,7 @@
 [ -d $HOME/htp/logs ] || mkdir $HOME/htp/logs
 LOGFILE="$HOME/htp/logs/`date +%F`-`date +%H%M`_autostartServices.sh.log"
 PROCLIST="$HOME/htp/autostartServicesServiceList.conf"
-
+BFILEDIR="$HOMEDIR/.rx30backup"
 
 YOURTERM=$TERM
 export TERM=scoansi
