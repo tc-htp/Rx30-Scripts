@@ -34,7 +34,7 @@ do
     fi
 done
 
-sleep 10
+sleep 1
 
 # starts Virtual RPh
 $HOME/rx30.exe bg &
